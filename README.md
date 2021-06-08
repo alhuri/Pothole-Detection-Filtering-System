@@ -1,7 +1,7 @@
 # Pothole-Detection-Filtering-System
 
 ## Abstract
-Potholes are a stressful issue for vehicle drivers. It reduces road quality. Resulting in permanent unrepaired damage to cars' internal engines. Besides, it costs the county millions every year to repair. Detecting potholes manually is a time and labor-consuming process. Early fast detection benefits both drivers and the municipality. For car drivers, it helps drivers to take preventive actions against them, while for the municipality it makes the discovery of potholes more effective. Therefore, the municipality will schedule the repair process early before the pothole expands. This project looks through this issue intensively and tries to provide technology-related solutions to fasten the pothole's detection process. Taking advantage of the available data to detect potholes in the fastest most accurate way. Reducing the overall cost of the discovery of road defects. Along with serving the county citizens by providing smooth roads for safe and comfortable rides. The resultant product of this work will be a system called Ayen used to detect potholes with the help of artificial intelligence specifically by taking advantage of the deep learning techniques. Starting by experimenting with deep learning algorithms such as simple CNN. Then, dive more into transfer learning techniques through ResNet50. The best model ResNet50 is integrated into an interface where pictures will be the input data for the model to predict the exitance of potholes. The system will be utilized by the municipality to discover potholes through road images.
+Potholes are a stressful issue for vehicle drivers. It reduces road quality. Resulting in permanent unrepaired damage to cars' internal engines. Besides, it costs the county millions every year to repair. Detecting potholes manually is a time and labor-consuming process. Early fast detection benefits both drivers and the municipality. For car drivers, it helps drivers to take preventive actions against them, while for the municipality it makes the discovery of potholes more effective. Therefore, the municipality will schedule the repair process early before the pothole expands. This project looks through this issue intensively and tries to provide technology-related solutions to fasten the pothole's detection process. Taking advantage of the available data to detect potholes in the fastest most accurate way. Reducing the overall cost of the discovery of road defects. Along with serving the county citizens by providing smooth roads for safe and comfortable rides. The resultant product of this work will be a system called Ayen used to detect potholes with the help of artificial intelligence specifically by taking advantage of the deep learning techniques. Starting by experimenting with deep learning algorithms such as simple CNN. Then, dive more into transfer learning techniques through ResNet50. The best model ResNet50 is integrated into an interface where pictures will be the input data for the model to predict the exitance of potholes. The system will be utilized by the municipality to discover potholes through road images anf filter reports.
 
 ## Functional Requirements
 The functional requirements describe the functionalities the system provides
@@ -13,12 +13,18 @@ The functional requirements describe the functionalities the system provides
 6)	The user should be able to view previously detected results.
 
 
-## Installation
+## Run Instructions
+1. Install pycharm,
+2. create new conda environment
+3. Open project in pycharm
+4. Change to conda environment
+5. Go to shell/ prompt
+6. pip install -r rquirements.txt
 
 ## License
+GNU GPLv3
 
 ## Documentation
-
-You should find the documentation for project <a href="https://drive.google.com/file/d/1oaSkrWF8uhmxnpoGAdt_uJWeRzRfZAGD/view?usp=sharing">her</a>
+You should find the documentation for project <a href="https://drive.google.com/file/d/1oaSkrWF8uhmxnpoGAdt_uJWeRzRfZAGD/view?usp=sharing">here</a>
 
 
