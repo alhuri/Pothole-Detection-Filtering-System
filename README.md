@@ -19,6 +19,6 @@ The functional requirements describe the functionalities the system provides
 
 ## Documentation
 
-You should find the documentation for project [a link] (https://drive.google.com/file/d/1oaSkrWF8uhmxnpoGAdt_uJWeRzRfZAGD/view?usp=sharing)
+You should find the documentation for project <a href="https://drive.google.com/file/d/1oaSkrWF8uhmxnpoGAdt_uJWeRzRfZAGD/view?usp=sharing">her</a>
 
 
