@@ -1,0 +1,59 @@
+
+
+## loging screen username: asrar   pasword:1234
+create table potholeusers
+(
+	id serial not null
+		constraint user_pk
+			primary key,
+	username text,
+	password text
+);
+
+alter table potholeusers owner to usgynzty;
+
+
+# Results
+
+create table results
+(
+	id serial not null
+		constraint results_pk
+			primary key,
+	information text,
+	phone text,
+	class integer,
+	timestamp timestamp,
+	image bytea,
+	ext text
+);
+
+alter table results owner to usgynzty;
+
+
+
+
+create table reporter
+(
+	id serial not null
+		constraint reporter_pk
+			primary key,
+	name text,
+
+);
+
+alter table reporter owner to usgynzty;
+
+
+ALTER TABLE public.results
+    ADD COLUMN "reporterID" not null
+		 references reporter (id)
+
+ALTER TABLE public.results
+    ADD COLUMN "UserID" not null
+		 references potholeusers (id)
+
+
+
+
+'''
