@@ -15,8 +15,8 @@ from flask_socketio import SocketIO, emit
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
 
-con = psycopg2.connect(database="usgynzty", user="usgynzty", password="XR56-0wFstJwS6bEHP6vDHERtXgN9x3P",
-                       host="otto.db.elephantsql.com", port="5432")
+con = psycopg2.connect(database="xx", user="xx", password="xx",
+                       host="xx", port="5432")
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
